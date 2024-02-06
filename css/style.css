@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#board {
+    height: 900px;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.carree {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
